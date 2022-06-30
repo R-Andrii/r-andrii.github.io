@@ -84,7 +84,7 @@ ul{
   width: 100%;
   display: flex;
   min-height:500px;
-  background-image: url(../cvweb/img/banner.jpg);
+  background-image: url(img/banner.jpg);
 /*  background-color: blue;*/
 }
 
