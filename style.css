@@ -173,7 +173,7 @@ ul{
 
 .edu-list li { /*розмістити текст в одну строку*/
   /* line-height: 2.0; */
-  background: url(../cvweb/img/check.png) no-repeat center left;
+  background: url(/img/check.png) no-repeat center left;
 	min-height: 30px;
 	padding-left: 50px;
 	margin-bottom: 20px;
@@ -188,7 +188,7 @@ ul{
 
 .skills-list li {
   /* замінити іконку або змінити колір. Розділити на три типи з унікальною картнкою */
-	background: url(../cvweb/img/check1.png) no-repeat center left;
+	background: url(/img/check1.png) no-repeat center left;
 	min-height: 30px;
 	padding-left: 70px;
 	margin-bottom: 20px;
@@ -202,7 +202,7 @@ ul{
   padding-bottom: 80px;
   margin-top: 50px;
   margin-bottom: 30px;
-  background-image: url(../cvweb/img/credo-bg.png);
+  background-image: url(/img/credo-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,7 +225,7 @@ ul{
 }
 
 .ew-h{
-  background: url(../cvweb/img/experience.png) no-repeat center left;
+  background: url(/img/experience.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 80px;
 	margin-bottom: -5px;
@@ -234,7 +234,7 @@ ul{
 }
 
 .edu-h{
-  background: url(../cvweb/img/education.png) no-repeat center left;
+  background: url(/img/education.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -243,7 +243,7 @@ ul{
 }
 
 .cc-h{
-  background: url(../cvweb/img/cc.png) no-repeat center left;
+  background: url(/img/cc.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -252,7 +252,7 @@ ul{
 }
 
 .lang-h{
-  background: url(../cvweb/img/languages.png) no-repeat center left;
+  background: url(/img/languages.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -261,7 +261,7 @@ ul{
 }
 
 .soft-h{
-  background: url(../cvweb/img/soft.png) no-repeat center left;
+  background: url(/img/soft.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -270,7 +270,7 @@ ul{
 }
 
 .hard-h{
-  background: url(../cvweb/img/hard.png) no-repeat center left;
+  background: url(/img/hard.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -279,7 +279,7 @@ ul{
 }
 
 .cv-h{
-  background: url(../cvweb/img/cv.png) no-repeat center left;
+  background: url(/img/cv.png) no-repeat center left;
   min-height: 49px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -288,7 +288,7 @@ ul{
 }
 
 .about-h{
-  background: url(../cvweb/img/about.png) no-repeat center left;
+  background: url(/img/about.png) no-repeat center left;
   min-height: 49px;
 	padding-left: 65px;
 	margin-bottom: -5px;
@@ -297,7 +297,7 @@ ul{
 }
 
 .cont-h{
-  background: url(../cvweb/img/cont.png) no-repeat center left;
+  background: url(/img/cont.png) no-repeat center left;
   min-height: 48px;
 	padding-left: 65px;
 	margin-bottom: -5px;
