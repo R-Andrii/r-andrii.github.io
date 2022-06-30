@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h3 {
+  font-size: 12px;
+  letter-spacing: 7px;
+  color: yellow;
+}
+
+h4{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  display: block;
+  text-align: justify;
+  line-height: 2.0;
+  text-indent: 2.0em;
+
+}
+
+hr{
+  height: 5px;
+  background-color: #ffd60c;
+  border: 0;
+}
+
+ul{
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.main-section {
+  height: 100%;
+  width: auto;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  background-color: #3790E3;
+}
+
+/*.top-section a {
+  text-decoration: none;
+  padding-left: 15px;
+  font: 13px;
+  color: rgba(0,0,0,0.87);
+}*/
+
+.container-logo {
+  display: flex;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  /* align-content: center; */
+}
+
+.baner-section {
+  width: 100%;
+  display: flex;
+  min-height:500px;
+  background-image: url(../cvweb/img/banner.jpg);
+/*  background-color: blue;*/
+}
+
+.baner-section p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.white-text {
+  color: #fff;
+  font-size: 25px;
+}
+
+.grey-text {
+  color: rgb(37, 36, 36);
+  font-weight: 600;
+}
+
+.nav {
+  width: 100%;
+  /* list-style: none; */
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;  /* розібратись з вимірюванням */
+  /* margin-bottom: 50px; */
+  /* align-items: center; */
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+}
+
+.nav li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #02248A;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding-right: 5px;
+}
+
+.logo-text {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #373736;
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+
+.experience-section,
+.education-section,
+.courses-section,
+.skills-section,
+.cv-section,
+.private-section,
+.contact-section {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.list-li {
+  line-height: 2.0;
+}
+
+.edu-list {
+	column-count: 2;
+}
+
+.edu-list li { /*розмістити текст в одну строку*/
+  /* line-height: 2.0; */
+  background: url(../cvweb/img/check.png) no-repeat center left;
+	min-height: 30px;
+	padding-left: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+
+}
+
+.skills-list {
+	column-count: 3;
+}
+
+.skills-list li {
+  /* замінити іконку або змінити колір. Розділити на три типи з унікальною картнкою */
+	background: url(../cvweb/img/check1.png) no-repeat center left;
+	min-height: 30px;
+	padding-left: 70px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	/* width: 100%; */
+}
+
+.wp-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-image: url(../cvweb/img/credo-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wp-section p {
+  margin: 0px;
+}
+
+.p-large {
+  margin-bottom: 40px;
+}
+
+.img-wrap {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 40px;
+}
+
+.ew-h{
+  background: url(../cvweb/img/experience.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 80px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.edu-h{
+  background: url(../cvweb/img/education.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.cc-h{
+  background: url(../cvweb/img/cc.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.lang-h{
+  background: url(../cvweb/img/languages.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.soft-h{
+  background: url(../cvweb/img/soft.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.hard-h{
+  background: url(../cvweb/img/hard.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.cv-h{
+  background: url(../cvweb/img/cv.png) no-repeat center left;
+  min-height: 49px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.about-h{
+  background: url(../cvweb/img/about.png) no-repeat center left;
+  min-height: 49px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.cont-h{
+  background: url(../cvweb/img/cont.png) no-repeat center left;
+  min-height: 48px;
+	padding-left: 65px;
+	margin-bottom: -5px;
+	display: flex;
+	align-items: center;
+}
+
+#main-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  align-items: center;
+}
+
+#main-form input, 
+#main-form textarea {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border: 3px solid #02248A;
+  width: 80%;
+}
+
+#main-form textarea {
+  height: 150px;
+}
+
+#main-form #submit {
+  width: 300px;
+  background: #00ECBB;
+  color: #02248A;
+  cursor: pointer;
+}
+
+.to-top {
+  position: fixed;
+  right: 100px;
+  bottom: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  min-height: 45px;
+  background: #02248A;
+  color: #fff;
+  /*transform: rotate(180deg);*/
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;			
+}
+
+
