@@ -173,7 +173,7 @@ ul{
 
 .edu-list li { /*розмістити текст в одну строку*/
   /* line-height: 2.0; */
-  background: url(/img/check.png) no-repeat center left;
+  background: url(./img/check.png) no-repeat center left;
 	min-height: 30px;
 	padding-left: 50px;
 	margin-bottom: 20px;
