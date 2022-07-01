@@ -344,6 +344,7 @@ ul{
   justify-content: center;
   width: 45px;
   min-height: 45px;
+  border-radius: 30px;
   background: #02248A;
   color: #fff;
   /*transform: rotate(180deg);*/
