@@ -85,7 +85,6 @@ ul{
   display: flex;
   min-height:500px;
   background-image: url(/img/banner.jpg);
-/*  background-color: blue;*/
 }
 
 .baner-section p {
@@ -171,7 +170,7 @@ ul{
 	column-count: 2;
 }
 
-.edu-list li { /*розмістити текст в одну строку*/
+.edu-list li { 
   /* line-height: 2.0; */
   background: url(./img/check.png) no-repeat center left;
 	min-height: 30px;
@@ -187,7 +186,7 @@ ul{
 }
 
 .skills-list li {
-  /* замінити іконку або змінити колір. Розділити на три типи з унікальною картнкою */
+ 
 	background: url(/img/check1.png) no-repeat center left;
 	min-height: 30px;
 	padding-left: 70px;
