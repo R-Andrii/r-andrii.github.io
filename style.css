@@ -47,9 +47,15 @@ ul{
   margin-bottom: 7px;
 }
 
-.main-section {
+header {
   height: 100%;
   width: auto;
+}
+
+footer {
+  justify-content: center;
+  padding: 2px;
+  background-color: #3790E3;
 }
 
 .top-section {
@@ -74,7 +80,7 @@ ul{
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   /* align-content: center; */
